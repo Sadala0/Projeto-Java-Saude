@@ -150,14 +150,11 @@ mvn -version
 ### Passo a passo
 
 ```bash
-# 1. Clone o repositório e entre na pasta do projeto (onde está o pom.xml)
-git clone <url-do-repositorio>
-cd SaudeSimples
 
-# 2. Execute os testes
+# 1. Execute os testes
 mvn test
 
-# 3. Compile
+# 2. Compile
 mvn compile
 ```
 
@@ -193,7 +190,7 @@ Saída esperada ao final: `BUILD SUCCESS`.
 2. Cadastre um médico: `ID 1`, `João`, `Clínica Geral` (opção 6)
 3. Cadastre uma sala: `ID 1`, `Sala 1` (opção 7)
 4. Agende uma consulta (opção 8): `ID 1`, paciente `1`, médico `1`, sala `1`, data `10/10/2026 10:00`
-5. Tente agendar outra consulta no mesmo horário com o mesmo médico (ou paciente, ou sala). O sistema recusa com uma mensagem como:
+5. Tente agendar outra consulta no mesmo horário com o mesmo médico (ou paciente, ou sala). O sistema recusa com uma mensagem:
 
 ```
 ERRO: Paciente já possui consulta nesse horário.
