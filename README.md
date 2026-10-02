@@ -6,7 +6,7 @@ Sistema de gestão de clínica em **Java**, executado no terminal. Permite cadas
 ![Maven](https://img.shields.io/badge/Maven-3.9-blue)
 ![H2](https://img.shields.io/badge/H2-2.3.232-lightgrey)
 ![JUnit](https://img.shields.io/badge/JUnit-5.11-green)
-![CSV]
+
 
 
 ---
