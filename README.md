@@ -224,17 +224,13 @@ SaudeSimples/
 
 ---
 
-## ⚠️ Limitações conhecidas
+## ⚠️ Limitações
 
 - Os dados ficam **em memória**: ao fechar o programa, pacientes, médicos, salas e consultas cadastrados são perdidos. O H2 só recebe os pacientes salvos manualmente pela opção 16, e eles não são recarregados ao reiniciar.
-- Os IDs são digitados pelo usuário e não há verificação de IDs duplicados.
-- A situação da sala (ocupada/livre) é só informativa: ela não impede novos agendamentos em outros horários. O conflito é verificado pela data e hora das consultas.
+
 
 ---
 
 ## 🤖 Uso de IA
 
-| Ferramenta | Objetivo | Resumo do uso | Revisão pelo Dev |
-|---|---|---|---|
-| ChatGPT | Código base e documentação | Auxiliou na criação da estrutura simples, classes, regras de negócio, menu e README. | Código e regras devem ser testados e revisados pelos integrantes antes da apresentação. |
-| Claude | Revisão e documentação | Auxiliou na resolução de erros de ambiente (Maven e CSV), na revisão do código e na reescrita deste README. | Conteúdo conferido com o código-fonte. |
+| Claude | Integração, Revisão e documentação | Auxiliou na resolução de erros de ambiente (Maven e CSV), na revisão do código e na reescrita deste README. | Conteúdo conferido com o código-fonte. |
