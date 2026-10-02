@@ -129,6 +129,7 @@ A opção 15 gera o arquivo `data/pacientes.csv` com o cabeçalho `id,nome,idade
 - **Maven 3.9** (build e gerenciamento de dependências)
 - **H2 Database 2.3.232**
 - **JUnit 5.11** (testes) com **Maven Surefire 3.5.0**
+- **CSV** (Salvar pacientes em documentos)
 
 ---
 
